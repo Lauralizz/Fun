@@ -17,10 +17,9 @@
         width: 100%;
         text-align: right;
         padding: .25rem 2vw;
-    }
-    
-    li.current-menu-item a {
-        background-color: #A19788;
+        position: absolute;
+        top: 4rem; 
+        right: 1rem; 
     }
     
     #menu.open::before {
@@ -38,7 +37,7 @@
         position: absolute;
         top: 4rem; 
         right: 1rem; 
-        background-color: #F7E08D;
+        background-color: rgba(238, 46, 49, 0.5);;
         z-index: 1000; 
     }
 
