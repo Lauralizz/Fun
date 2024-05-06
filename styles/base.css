@@ -58,8 +58,8 @@ ul {
 
 nav a:hover {
     border: 1px solid white;
-    background-color: #474847ff;
-    color: #F7E08D;
+    background-color: #f04245;
+    border: 0px;
 }
 
 body {
