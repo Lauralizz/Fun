@@ -3,6 +3,10 @@
         content: "\2630";
     }
     
+    header img {
+        width: auto;
+    }
+
     #menu {
         display: contents;
         font: 20px;
@@ -36,5 +40,9 @@
         right: 1rem; 
         background-color: #F7E08D;
         z-index: 1000; 
+    }
+
+    nav a {
+        font-size: large;
     }
 }
