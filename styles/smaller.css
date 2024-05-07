@@ -20,18 +20,16 @@
         }
     }
     #menu {
-        /* Adjust positioning properties */
         position: absolute;
-        top: 0; /* Adjust as needed */
-        right: 0; /* Adjust as needed */
-        /* Remove unnecessary properties */
+        top: 0; 
+        right: 0;
         display: block;
         background: none;
         border: none;
-        color: white; /* Change to desired color */
+        color: white;
         cursor: pointer;
-        font-size: 20px; /* Add unit for font size */
-        padding: 10px; /* Adjust padding as needed */
+        font-size: 20px;
+        padding: 10px;
     }
     
     .navigation {
@@ -57,6 +55,10 @@
         background-color: #f04245;
         z-index: 1000; 
         z-index: 999;
+    }
+
+    main {
+        width: auto;
     }
 
     nav a {

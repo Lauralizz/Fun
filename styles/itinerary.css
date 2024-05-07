@@ -25,7 +25,7 @@ nav a {
 nav {
     background-color: rgba(238, 46, 49, 0.5);
     margin: 0 auto;
-    max-width: 1300px;
+    max-width: 1000px;
     height: 70px;
     align-items: center;
     justify-content: space-around;
@@ -35,10 +35,6 @@ nav ul {
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
-}
-
-header img {
-    min-width: 1000px;
 }
 
 
@@ -54,11 +50,11 @@ nav a {
     text-decoration: none;
 }
 
-p {
+section p {
     font-family: "Syncopate", sans-serif;
     color: white;
     text-align: left;
-    padding-left: 100px;
+    padding-left: auto;
 }
 
 
@@ -89,7 +85,7 @@ h3 {
 footer {
     margin: 0 auto;
     background-color: #1d7874;
-    max-width: 1300px;
+    max-width: 1000px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -107,5 +103,5 @@ section {
 main {
     text-align: center;
     display: grid;
-    grid-template-columns: auto 1300px auto;
+    grid-template-columns: 1fr 2fr 1fr;
 }
