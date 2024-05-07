@@ -3,6 +3,7 @@
         content: "\2630";
     }
     
+    
 
     #menu {
         /* Adjust positioning properties */
@@ -20,12 +21,12 @@
     }
     
     .navigation {
-        /* Adjust positioning properties */
-        position: absolute;
-        top: 100%; /* Adjust as needed */
-        right: 0; /* Adjust as needed */
-        /* Remove unnecessary properties */
         display: none;
+    }
+
+    .navigation a:hover {
+        background-color: white;
+        color: #f04245;;
     }
     
     #menu.open::before {
@@ -38,7 +39,7 @@
         position: absolute;
         top: 4rem; 
         right: 1rem; 
-        background-color: rgba(238, 46, 49, 0.5);;
+        background-color: #f04245;
         z-index: 1000; 
     }
 
