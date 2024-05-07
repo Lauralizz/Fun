@@ -20,10 +20,15 @@ nav a {
     padding-right: 50px;
 }
 
+#big {
+    max-width: 100%;
+    height: auto;
+}
+
 nav {
     background-color: rgba(238, 46, 49, 0.5);
     margin: 0 auto;
-    max-width: 1300px;
+    max-width: 1000px;
     height: 70px;
     display: flex;
     position: absolute;
@@ -39,11 +44,6 @@ nav ul {
     list-style-type: none;
     justify-content: space-evenly;
 }
-
-header img {
-    min-width: 1000px;
-}
-
 
 #menu {
     display: none;
@@ -96,7 +96,14 @@ body {
 footer {
     margin: 0 auto;
     background-color: #1d7874;
-    max-width: 1300px;
+    max-width: 1000px;
     padding-top: 5px;
     padding-bottom: 5px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: space-around;
 }
