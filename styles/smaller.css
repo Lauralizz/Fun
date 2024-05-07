@@ -2,9 +2,20 @@
     #menu::before {
         content: "\2630";
     }
-    
-    
+    @media (max-width: 450px) {
+        main {
+            display: grid;
+            grid-template-rows: .5fr 1fr 1fr;
+        }
 
+        #big {
+            grid-row: 2/3;
+        }
+
+        h1 {
+            grid-row: 2/3;
+        }
+    }
     #menu {
         /* Adjust positioning properties */
         position: absolute;
@@ -45,10 +56,6 @@
 
     nav a {
         font-size: large;
-    }
-
-    main {
-        grid-template-columns: auto;
     }
 
     p {
