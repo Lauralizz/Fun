@@ -81,3 +81,31 @@ footer {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+section {
+    background-color: rgba(29, 120, 116, 0.9);
+    padding: 0 auto;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    grid-column: 2/3;
+}
+
+main {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto 1300px auto;
+}
+
+button {
+    cursor: pointer;
+    background-color: #f04245;
+    display: block;
+    margin: auto;
+}
+
+button:hover {
+    border: 1px solid white;
+    background-color: rgba(238, 46, 49, .9);
+}
