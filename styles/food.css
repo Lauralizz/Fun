@@ -99,14 +99,12 @@ main {
 
 button {
     cursor: pointer;
-    background-color: rgba(238, 46, 49, 0.5);
-}
-
-#billsButton, #epicLootButton, #marketButton {
+    background-color: #f04245;
     display: block;
     margin: auto;
 }
 
 button:hover {
-    background-color: #f04245;
+    border: 1px solid white;
+    background-color: rgba(238, 46, 49, .9);
 }
