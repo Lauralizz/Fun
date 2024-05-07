@@ -1,3 +1,4 @@
+/*smaller css*/
 @media (max-width: 950px) {
     #menu::before {
         content: "\2630";
@@ -6,10 +7,12 @@
         main {
             display: grid;
             grid-template-rows: .5fr 1fr 1fr;
+            z-index: 0;
         }
 
         #big {
             grid-row: 2/3;
+            z-index: 0;
         }
 
         h1 {
@@ -33,11 +36,12 @@
     
     .navigation {
         display: none;
+        z-index: 999;
     }
 
     .navigation a:hover {
         background-color: white;
-        color: #f04245;;
+        color: #f04245;
     }
     
     #menu.open::before {
@@ -52,6 +56,7 @@
         right: 1rem; 
         background-color: #f04245;
         z-index: 1000; 
+        z-index: 999;
     }
 
     nav a {
